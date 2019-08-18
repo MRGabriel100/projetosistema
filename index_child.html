@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+
+    <link rel="stylesheet" href="./photon/css/photon.min.css">
+
+    <script>window.$ = window.jQuery = require('jquery'); </script>
+
+    <script src="./controller.js"></script>
+    <script>
+        const enav = new (require('electron-navigation'))();
+    </script>
+  </head>
+  <body>
+    <header class="toolbar toolbar-header">
+
+      <h1 class="title">Programa</h1>
+
+          <div class="barra-tarefas">
+
+              <div class="btn-acao pull-right"  >
+
+                <button class="btn btn-default" id="minus">
+                  <span class="icon icon-minus"></span>
+                </button>
+
+                <button class="btn btn-default" id="plus">
+                  <span class="icon icon-plus"></span>
+                </button>
+
+                <button class="btn btn-default" id="cancel">
+                  <span class="icon icon-cancel"></span>
+                </button>
+
+              </div>
+
+
+
+    </header>
+    <!-- You can also require other files to run in this process -->
+
+  </body>
+</html>
